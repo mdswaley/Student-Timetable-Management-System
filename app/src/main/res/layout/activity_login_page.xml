@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+    tools:context=".LoginPage">
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/login">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img"
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="70dp"
+        android:importantForAutofill="no"
+        android:background="@color/black"
+
+
+        android:text="Email"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/userhint"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et2"
+        android:layout_alignLeft="@id/et2"
+        android:backgroundTint="#FFFFFF"
+        android:drawableStart="@android:drawable/ic_dialog_email"
+
+        android:hint="Enter your email address"
+
+        android:inputType="text"
+        android:textStyle="bold"></EditText>
+
+    <TextView
+        android:id="@+id/et4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userhint"
+        android:layout_alignLeft="@id/userhint"
+        android:layout_marginTop="70dp"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textSize="30dp"
+
+        ></TextView>
+
+    <EditText
+        android:id="@+id/passhint"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et4"
+        android:layout_alignLeft="@id/et4"
+        android:backgroundTint="#FFFFFF"
+        android:drawableStart="@android:drawable/ic_lock_lock"
+        android:hint="Enter your Password"
+        android:inputType="numberPassword"
+        android:textAllCaps="true"
+        android:textStyle="bold">
+
+    </EditText>
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passhint"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="200dp"
+        android:text="Sign Up"
+        android:textSize="25dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passhint"
+
+        android:layout_marginLeft="50dp"
+
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:text="Sign In"
+        android:textSize="25dp">
+
+    </Button>
+
+
+</RelativeLayout>
+
+

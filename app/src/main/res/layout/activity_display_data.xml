@@ -1,0 +1,274 @@
+<!-- activity_show_data.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <!-- Add TextViews or other UI elements to display data here -->
+    <LinearLayout
+        android:id="@+id/showDataLayout"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:id="@+id/mytable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <TableRow
+        android:id="@+id/Days"
+        android:background="#31E5FB"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/textd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="time" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="mon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="tue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:text="wed" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:text="thu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:text="fri" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:text="sat" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRowToUpdate"
+        android:background="#FF31E5FB"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/texttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="9:30AM" />
+
+
+        <TextView
+            android:id="@+id/textViewColumn01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="WSUJ" />
+
+        <TextView
+            android:id="@+id/textViewColumn02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="AJ" />
+
+        <TextView
+            android:id="@+id/textViewColumn03"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="JR" />
+
+        <TextView
+            android:id="@+id/textViewColumn04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="SKILL" />
+
+        <TextView
+            android:id="@+id/textViewColumn05"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AAD" />
+
+        <TextView
+            android:id="@+id/textViewColumn06"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SKILL" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRowToUpdate2"
+        android:background="#FF31E5FB"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/texttime2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="10:30AM" />
+
+        <TextView
+            android:id="@+id/textViewColumn11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="WSUJ" />
+
+        <TextView
+            android:id="@+id/textViewColumn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="AWPUR" />
+
+        <TextView
+            android:id="@+id/textViewColumn13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="WSUJ" />
+
+        <TextView
+            android:id="@+id/textViewColumn14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="SKILL" />
+
+        <TextView
+            android:id="@+id/textViewColumn15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="AWPUR" />
+
+        <TextView
+            android:id="@+id/textViewColumn16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="AWPUR" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRowToUpdate3"
+        android:background="#FF31E5FB"
+
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/texttime3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="11:30AM" />
+
+        <TextView
+            android:id="@+id/textViewColumn21"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AAD" />
+
+        <TextView
+            android:id="@+id/textViewColumn22"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AAD" />
+
+        <TextView
+            android:id="@+id/textViewColumn23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="AJ" />
+
+        <TextView
+            android:id="@+id/textViewColumn24"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="JR" />
+
+        <TextView
+            android:id="@+id/textViewColumn25"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AWPUR" />
+
+        <TextView
+            android:id="@+id/textViewColumn26"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="WSUJ" />
+    </TableRow>
+    </TableLayout>
+
+</LinearLayout>
